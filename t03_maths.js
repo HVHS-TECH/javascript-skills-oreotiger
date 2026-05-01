@@ -6,11 +6,11 @@ console.log("hello")
 
 // Variables
 let userName = "Beatrix";
-let userAge = "15";
-let user
+let userAge = "15.5";
+let userBirthYear = currentYear - userAge;
 let userMoney = "25";
 let spentMoney = userMoney / 2;
-let giftMoney = spentMoney + 3
+let giftMoney = spentMoney + 3;
 let currentYear = "2026";
 /****************************
 Main code
