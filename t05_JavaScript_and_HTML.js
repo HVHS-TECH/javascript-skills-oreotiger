@@ -18,12 +18,13 @@ let giftMoney = spentMoney + 3;
 // JS and HTML link
 const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
 OUTPUT.innerHTML = "<h3>Added by JavaScript</h3>";
-OUTPUT.innerHTML += "<p>Hi</p> + userName";
-OUTPUT.innerHTML += 
-OUTPUT.innerHTML +=
-OUTPUT.innerHTML +=
-OUTPUT.innerHTML +=
-OUTPUT.innerHTML +=
+OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
+OUTPUT.innerHTML += "<p>As of " + currentYear + " you are " + userAge + " years old.</p>";
+OUTPUT.innerHTML += "<p>You were born in " + userBirthYear + "</p>";
+OUTPUT.innerHTML += "<p>In 10 years you will be " + (userAge + 10) + " years old.</p>";
+OUTPUT.innerHTML += "<p>You have " + userMoney + " dollars.</p>"
+OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + spentMoney + " dollars.</p>"
+OUTPUT.innerHTML += "<p>Then you get $3, now you have " + giftMoney + " dollars.</p>"
 
 /****************************
 Main code
