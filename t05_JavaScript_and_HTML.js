@@ -1,12 +1,3 @@
-// JS and HTML link
-const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
-OUTPUT.innerHTML = "<h3>Added by JavaScript</h3>";
-OUTPUT.innerHTML += "<p>Hi</p> + userName";
-OUTPUT.innerHTML +=
-OUTPUT.innerHTML +=
-OUTPUT.innerHTML +=
-OUTPUT.innerHTML +=
-OUTPUT.innerHTML +=
 
 /****************************
 Name of task:
@@ -23,6 +14,16 @@ let userBirthYear = currentYear - userAge;
 let userMoney = 25;
 let spentMoney = userMoney / 2;
 let giftMoney = spentMoney + 3;
+
+// JS and HTML link
+const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
+OUTPUT.innerHTML = "<h3>Added by JavaScript</h3>";
+OUTPUT.innerHTML += "<p>Hi</p> + userName";
+OUTPUT.innerHTML += 
+OUTPUT.innerHTML +=
+OUTPUT.innerHTML +=
+OUTPUT.innerHTML +=
+OUTPUT.innerHTML +=
 
 /****************************
 Main code
