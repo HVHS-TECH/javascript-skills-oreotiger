@@ -1,3 +1,5 @@
+const { startTransition } = require("react");
+
 /****************************
 Name of task:
 ****************************/
@@ -41,6 +43,7 @@ welcome()
 displayProduct("Chocolate Bar", 4)
 displayProduct("Chips", 3)
 displayProduct("Drink", 2.50)
+start()
 console.log("Hi " + userName);
 console.log("As of " + currentYear + " you are " + userAge + " years old.")
 console.log("You were born in " + userBirthYear)
