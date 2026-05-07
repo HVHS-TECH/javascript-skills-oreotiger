@@ -9,6 +9,9 @@ function welcome(){
     //Add a line to the HTML page
     OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
 }
+function displayProduct (_name, _price){
+    OUTPUT.innerHTML += "<p>" + _name + "</p>"
+}
 
 // Variables
 let userName = "Beatrix";
@@ -35,6 +38,7 @@ OUTPUT.innerHTML += "<p>Then you get $3, now you have " + giftMoney + " dollars.
 Main code
 ****************************/
 welcome()
+displayProduct()
 console.log("Hi " + userName);
 console.log("As of " + currentYear + " you are " + userAge + " years old.")
 console.log("You were born in " + userBirthYear)
