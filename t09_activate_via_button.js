@@ -14,7 +14,9 @@ function welcome(){
 function displayProduct (_name, _price){
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>"
 }
-
+function start (){
+    spaceFor
+}
 // Variables
 let userName = "Beatrix";
 let userAge = 15.5;
