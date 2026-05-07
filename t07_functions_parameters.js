@@ -1,7 +1,7 @@
 /****************************
 Name of task:
 ****************************/
-console.log("Running t07_functions_.js")
+console.log("Running t07_functions_parameters.js")
 console.log("Hello")
 
 //Functions
