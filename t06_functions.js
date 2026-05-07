@@ -4,6 +4,12 @@ Name of task:
 console.log("Running t06_functions.js")
 console.log("Hello")
 
+//Functions
+function welcome(){
+    //Add a line to the HTML page
+    OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
+}
+
 // Variables
 let userName = "Beatrix";
 let userAge = 15.5;
@@ -28,6 +34,7 @@ OUTPUT.innerHTML += "<p>Then you get $3, now you have " + giftMoney + " dollars.
 /****************************
 Main code
 ****************************/
+welcome()
 console.log("Hi " + userName);
 console.log("As of " + currentYear + " you are " + userAge + " years old.")
 console.log("You were born in " + userBirthYear)
