@@ -10,7 +10,7 @@ function welcome(){
     OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
 }
 function displayProduct (_name, _price){
-    OUTPUT.innerHTML += "<p>" + _name + "</p>"
+    OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>"
 }
 
 // Variables
@@ -38,7 +38,9 @@ OUTPUT.innerHTML += "<p>Then you get $3, now you have " + giftMoney + " dollars.
 Main code
 ****************************/
 welcome()
-displayProduct()
+displayProduct("Chocolate Bar", 4)
+displayProduct("Chips", 3)
+displayProduct("Drink", 2.50)
 console.log("Hi " + userName);
 console.log("As of " + currentYear + " you are " + userAge + " years old.")
 console.log("You were born in " + userBirthYear)
