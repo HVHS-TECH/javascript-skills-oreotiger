@@ -16,6 +16,9 @@ function displayProduct (_name, _price){
 }
 function start (){
     spaceForJavaScriptOutput.innerHTML
+    spaceForJavaScriptOutput.innerHTML
+    answer = currentYear - userAge;
+    spaceForJavaScriptOutput.innerHTML
 }
 // Variables
 let userName = "Beatrix";
