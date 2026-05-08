@@ -15,7 +15,7 @@ function displayProduct (_name, _price){
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>"
 }
 function start (){
-    spaceFor
+    spaceForJavaScriptOutput.innerHTML
 }
 // Variables
 let userName = "Beatrix";
