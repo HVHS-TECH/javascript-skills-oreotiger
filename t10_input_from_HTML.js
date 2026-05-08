@@ -3,8 +3,6 @@ Name of task:
 ****************************/
 console.log("Running t10_input_from_HTML.js")
 console.log("Hello")
-const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
-const NAME_FIELD = document.getElementById("nameField")
 
 //Functions
 function welcome(){
@@ -20,6 +18,12 @@ function start (){
     answer = currentYear - userAge;
     spaceForJavaScriptOutput.innerHTML
 }
+
+function getFormInput(){
+    const NAME_FIELD = document.getElementById("nameField");
+    let userName = NAME_FIELD.value;
+    OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>"
+}
 // Variables
 let userName = "Beatrix";
 let userAge = 15.5;
@@ -30,7 +34,10 @@ let userMoney = 25;
 let spentMoney = userMoney / 2;
 let giftMoney = spentMoney + 3;
 
-
+// Constants
+const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
+const NAME_FIELD = document.getElementById("nameField");
+let userName = NAME_FIELD.value;
 
 // JS and HTML link
 function start (){
