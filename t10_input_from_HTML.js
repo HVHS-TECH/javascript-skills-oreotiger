@@ -4,7 +4,7 @@ Name of task:
 console.log("Running t10_input_from_HTML.js")
 console.log("Hello")
 const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
-const NAME_FIELD = document.getElementById()
+const NAME_FIELD = document.getElementById("nameField")
 
 //Functions
 function welcome(){
