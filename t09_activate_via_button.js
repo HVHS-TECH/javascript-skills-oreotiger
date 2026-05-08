@@ -30,6 +30,10 @@ let userMoney = 25;
 let spentMoney = userMoney / 2;
 let giftMoney = spentMoney + 3;
 
+function start (){
+OUTPUT.innerHTML = "<h2>Added to JavaScript</h2>"
+
+
 // JS and HTML link
 const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
 OUTPUT.innerHTML = "<h3>Added by JavaScript</h3>";
@@ -59,4 +63,4 @@ console.log("Then you get $3, now you have " + giftMoney + " dollars")
 /****************************
 Functions
 ****************************/
-
+}
