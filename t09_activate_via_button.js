@@ -1,4 +1,4 @@
-const { startTransition } = require("react");
+
 
 /****************************
 Name of task:
@@ -30,12 +30,12 @@ let userMoney = 25;
 let spentMoney = userMoney / 2;
 let giftMoney = spentMoney + 3;
 
-function start (){
-OUTPUT.innerHTML = "<h2>Added to JavaScript</h2>"
 
 
 // JS and HTML link
 const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
+function start (){
+OUTPUT.innerHTML = "<h2>Added to JavaScript</h2>"
 OUTPUT.innerHTML = "<h3>Added by JavaScript</h3>";
 OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
 OUTPUT.innerHTML += "<p>As of " + currentYear + " you are " + userAge + " years old.</p>";
