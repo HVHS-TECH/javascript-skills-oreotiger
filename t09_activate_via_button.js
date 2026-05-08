@@ -5,6 +5,7 @@ Name of task:
 ****************************/
 console.log("Running t09_activate_via_button.js")
 console.log("Hello")
+const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
 
 //Functions
 function welcome(){
@@ -33,7 +34,6 @@ let giftMoney = spentMoney + 3;
 
 
 // JS and HTML link
-const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
 function start (){
 OUTPUT.innerHTML = "<h2>Added to JavaScript</h2>"
 OUTPUT.innerHTML = "<h3>Added by JavaScript</h3>";
