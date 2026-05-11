@@ -25,7 +25,6 @@ function getFormInput(){
     OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>"
 }
 // Variables
-let userName = "Beatrix";
 let userAge = 15.5;
 let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
