@@ -64,9 +64,4 @@ console.log("In 10 years you will be " + (userAge + 10) + " years old")
 console.log("You have " + userMoney + " dollars.")
 console.log("You spent half of your money, now you have " + spentMoney + " dollars")
 console.log("Then you get $3, now you have " + giftMoney + " dollars")
-function getFormInput(){
-    const NAME_FIELD = document.getElementById("nameField");
-    let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>"
-}
 }
