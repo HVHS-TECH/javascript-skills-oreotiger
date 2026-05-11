@@ -1,10 +1,11 @@
 /****************************
 Name of task:
 ****************************/
-console.log("Running t10_input_from_HTML.js")
+console.log("Running t11_data_types.js")
 console.log("Hello")
 
 //Functions
+function start (){
 function welcome(){
     //Add a line to the HTML page
     OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
@@ -39,7 +40,7 @@ const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
 
 // JS and HTML link
-function start (){
+
 OUTPUT.innerHTML = "<h2>Added to JavaScript</h2>"
 OUTPUT.innerHTML = "<h3>Added by JavaScript</h3>";
 OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
