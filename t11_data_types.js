@@ -41,7 +41,7 @@ let userName = NAME_FIELD.value;
 // JS and HTML link
 function start (){
 OUTPUT.innerHTML = "<h2>Added to JavaScript</h2>"
-OUTPUT.innerHTML = "<h3>Added by JavaScript</h3>";
+OUTPUT.innerHTML += "<h3>Added by JavaScript</h3>";
 OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
 OUTPUT.innerHTML += "<p>As of " + currentYear + " you are " + userAge + " years old.</p>";
 OUTPUT.innerHTML += "<p>You were born in " + userBirthYear + "</p>";
@@ -49,6 +49,7 @@ OUTPUT.innerHTML += "<p>In 10 years you will be " + (userAge + 10) + " years old
 OUTPUT.innerHTML += "<p>You have " + userMoney + " dollars.</p>"
 OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + spentMoney + " dollars.</p>"
 OUTPUT.innerHTML += "<p>Then you get $3, now you have " + giftMoney + " dollars.</p>"
+OUTPUT.innerHTML += "<form onsubmit="return false;"><label for="formName">Name:</label><input type="text" id="nameField" name="formName"><input type="submit" onClick=getFormInput()><input type="text" id="nameField" name="formName" placeHolder="Name"></form>"
 
 /****************************
 Main code
