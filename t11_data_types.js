@@ -4,6 +4,11 @@ Name of task:
 console.log("Running t11_data_types.js")
 console.log("Hello")
 
+// Constants
+const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
+const NAME_FIELD = document.getElementById("nameField");
+let userName = NAME_FIELD.value;
+
 //Functions
 function welcome(){
     //Add a line to the HTML page
@@ -32,11 +37,6 @@ let userBirthYear = currentYear - userAge;
 let userMoney = 25;
 let spentMoney = userMoney / 2;
 let giftMoney = spentMoney + 3;
-
-// Constants
-const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
-const NAME_FIELD = document.getElementById("nameField");
-let userName = NAME_FIELD.value;
 
 // JS and HTML link
 function start (){
