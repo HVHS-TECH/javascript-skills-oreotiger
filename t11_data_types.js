@@ -33,9 +33,8 @@ function start (){
 }
 
 function getFormInput(){
-    console.log("getFormInput()")
-    // let userName = NAME_FIELD.value;
-    // OUTPUT.innerHTML += "<p>Your name is " + userName + "</p>"
+    let userName = NAME_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your name is " + userName + "</p>"
 }
 
 
