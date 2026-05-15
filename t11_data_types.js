@@ -5,8 +5,9 @@ console.log("Running t11_data_types.js")
 console.log("Hello")
 
 // Constants
-const OUTPUT = document.getElementById ("spaceForJavaScriptOutput")
+const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
+const AGE_FIELD = document.getElementById("nameField");
 
 // Variables
 let userName = NAME_FIELD.value;
