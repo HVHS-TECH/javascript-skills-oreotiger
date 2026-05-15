@@ -8,8 +8,8 @@ console.log("Hello")
 const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
 
 // Variables
-let userName = NAME_FIELD.value;
-let userAge = AGE_FIELD.value;
+let userName = "Beatrix";
+let userAge = 15;
 let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
 
@@ -35,11 +35,11 @@ function start (){
 }
 
 function getFormInput(){
-    userName = NAME_FIELD.value;
-    userAge = AGE_FIELD.value;
     const NAME_FIELD = document.getElementById("nameField");
-    const AGE_FIELD = document.getElementById("nameField");
+    userName = NAME_FIELD.value;
     OUTPUT.innerHTML += "<p>Your name is " + userName + "</p>"
+    const AGE_FIELD = document.getElementById("nameField");
+    userAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>"
 }
 
