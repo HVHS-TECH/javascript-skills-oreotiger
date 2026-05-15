@@ -46,7 +46,6 @@ function getFormInput(){
 
 // JS and HTML link
 function start (){
-    let userName = NAME_FIELD.value;
     OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
     OUTPUT.innerHTML += "<h3>Added by JavaScript</h3>";
     OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
