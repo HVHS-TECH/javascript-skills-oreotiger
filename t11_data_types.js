@@ -11,7 +11,7 @@ const AGE_FIELD = document.getElementById("nameField");
 
 // Variables
 let userName = NAME_FIELD.value;
-let userAge = 15.5;
+let userAge = AGE_FIELD.value;
 let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
 
