@@ -40,7 +40,7 @@ function getFormInput(){
     OUTPUT.innerHTML += "<p>Your name is " + userName + "</p>"
     const AGE_FIELD = document.getElementById("nameField");
     userAge = AGE_FIELD.value;
-    OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>"
+    OUTPUT.innerHTML = "<p>Your age is " + userAge + "</p>"
 }
 
 
