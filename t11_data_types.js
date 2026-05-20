@@ -10,6 +10,7 @@ const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
 
 // Variables
+let userAge = Number(AGE_FIELD.value);
 let userName = "Beatrix";
 let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
@@ -29,9 +30,8 @@ function displayProduct (_name, _price){
 function start (){
 // Submit button
     spaceForJavaScriptOutput.innerHTML
-    let userAge = Number(AGE_FIELD.value);
-    OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>";
-    OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>";
+    OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>"
+    OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>"
    
 
 
