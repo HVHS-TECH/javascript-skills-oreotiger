@@ -30,9 +30,9 @@ function displayProduct (_name, _price){
 function start (){
 // Submit button
     spaceForJavaScriptOutput.innerHTML
+    ;
     OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>"
     OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>"
-   
 
 
 // JS and HTML link
