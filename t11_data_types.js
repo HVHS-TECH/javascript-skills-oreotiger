@@ -8,6 +8,7 @@ console.log("Hello")
 const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
 
 // Variables
+let userAge = Number(AGE_FIELD.value);
 let userName = "Beatrix";
 let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
@@ -15,7 +16,6 @@ let userBirthYear = currentYear - userAge;
 let userMoney = 25;
 let spentMoney = userMoney / 2;
 let giftMoney = spentMoney + 3;
-let userAge = Number(AGE_FIELD.value);
 
 //Functions
 function welcome(){
