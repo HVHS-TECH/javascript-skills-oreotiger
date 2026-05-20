@@ -30,7 +30,6 @@ function displayProduct (_name, _price){
 function start (){
 // Submit button
     spaceForJavaScriptOutput.innerHTML
-    answer = currentYear - userAge;
     userName = NAME_FIELD.value;
     OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>"
     userAge = AGE_FIELD.value;
