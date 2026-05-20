@@ -28,16 +28,17 @@ function displayProduct (_name, _price){
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>"
 }
 function start (){
+// Submit button
     spaceForJavaScriptOutput.innerHTML
     answer = currentYear - userAge;
     userName = NAME_FIELD.value;
     OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>"
     userAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>"
-}
+
 
 // JS and HTML link
-function start (){
+
     OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
     OUTPUT.innerHTML += "<h3>Added by JavaScript</h3>";
     OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
