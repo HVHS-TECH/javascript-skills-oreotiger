@@ -9,7 +9,6 @@ const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
 
 // Variables
 let userName = "Beatrix";
-let userAge = 15;
 let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
 
