@@ -29,18 +29,12 @@ function displayProduct (_name, _price){
 }
 function start (){
     spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
     answer = currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
-}
-
-function getFormInput(){
     userName = NAME_FIELD.value;
     OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>"
     userAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>"
 }
-
 
 // JS and HTML link
 function start (){
