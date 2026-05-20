@@ -16,8 +16,7 @@ let userBirthYear = currentYear - userAge;
 let userMoney = 25;
 let spentMoney = userMoney / 2;
 let giftMoney = spentMoney + 3;
-let userAgeString = AGE_FIELD.value;
-let userAgeNumber = Number (userAgeString);
+let userAge = Number(AGE_FIELD.value);
 
 //Functions
 function welcome(){
