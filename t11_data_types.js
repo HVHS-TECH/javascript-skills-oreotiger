@@ -6,6 +6,8 @@ console.log("Hello")
 
 // Constants
 const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
+const NAME_FIELD = document.getElementById("nameField");
+const AGE_FIELD = document.getElementById("ageField");
 
 // Variables
 let userAge = Number(AGE_FIELD.value);
@@ -33,10 +35,8 @@ function start (){
 }
 
 function getFormInput(){
-    const NAME_FIELD = document.getElementById("nameField");
     userName = NAME_FIELD.value;
     OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>"
-    const AGE_FIELD = document.getElementById("ageField");
     userAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>"
 }
