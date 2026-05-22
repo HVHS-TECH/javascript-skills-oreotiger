@@ -60,6 +60,6 @@ function start (){
     console.log("You were born in " + userBirthYear)
     console.log("In 10 years you will be " + olderUserAge + " years old")
     console.log("You have " + userMoney + " dollars.")
-    console.log("You spent half of your money, now you have " + spentMoney + " dollars")
-    console.log("Then you get $3, now you have " + giftMoney + " dollars")
+    console.log("You spent half of your money, now you have " + halfUserMoney + " dollars")
+    console.log("Then you get $3, now you have " + addUserMoney + " dollars")
 }
