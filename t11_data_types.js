@@ -16,8 +16,6 @@ let userName = "Beatrix";
 let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
 let userMoney = Number (MONEY_FIELD.value);
-let spentMoney = userMoney / 2;
-let giftMoney = spentMoney + 3;
 
 //Functions
 function welcome(){
@@ -35,6 +33,8 @@ function start (){
     OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>"
     olderUserAge = userAge + 10;
     userMoney = Number (MONEY_FIELD.value);
+    halfUserMoney = userMoney / 2;
+    addUserMoney = halfUserMoney + 3;
 
 // JS and HTML link
 
@@ -45,8 +45,8 @@ function start (){
     OUTPUT.innerHTML += "<p>You were born in " + userBirthYear + "</p>";
     OUTPUT.innerHTML += "<p>In 10 years you will be " + olderUserAge + " years old.</p>";
     OUTPUT.innerHTML += "<p>You have " + userMoney + " dollars.</p>"
-    OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + spentMoney + " dollars.</p>"
-    OUTPUT.innerHTML += "<p>Then you get $3, now you have " + giftMoney + " dollars.</p>"
+    OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + halfUserMoney + " dollars.</p>"
+    OUTPUT.innerHTML += "<p>Then you get $3, now you have " + addUserMoney + " dollars.</p>"
 
     /****************************
     Main code
