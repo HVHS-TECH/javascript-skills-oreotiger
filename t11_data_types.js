@@ -37,9 +37,9 @@ function start (){
     addUserMoney = halfUserMoney + 3;
 
 // JS and HTML link
-
     OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
     OUTPUT.innerHTML += "<h3>Added by JavaScript</h3>";
+    welcome()
     OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
     OUTPUT.innerHTML += "<p>As of " + currentYear + " you are " + userAge + " years old.</p>";
     OUTPUT.innerHTML += "<p>You were born in " + userBirthYear + "</p>";
@@ -51,7 +51,7 @@ function start (){
     /****************************
     Main code
     ****************************/
-    welcome()
+    
     displayProduct("Chocolate Bar", 4)
     displayProduct("Chips", 3)
     displayProduct("Drink", 2.50)
