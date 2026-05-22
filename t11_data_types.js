@@ -35,6 +35,7 @@ function start (){
     userMoney = Number (MONEY_FIELD.value);
     halfUserMoney = userMoney / 2;
     addUserMoney = halfUserMoney + 3;
+    userBirthYear = currentYear - userAge;
 
 // JS and HTML link
     OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
