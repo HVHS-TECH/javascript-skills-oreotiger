@@ -1,1 +1,66 @@
-/* Paste your code from the last task */
+/****************************
+Name of task:
+****************************/
+console.log("Running t11_data_types.js")
+console.log("Hello")
+
+// Constants
+const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
+const NAME_FIELD = document.getElementById("nameField");
+const AGE_FIELD = document.getElementById("ageField");
+const MONEY_FIELD = document.getElementById("moneyField");
+
+// Variables
+let userAge = Number (AGE_FIELD.value);
+let userName = "Beatrix";
+let currentYear = 2026;
+let userBirthYear = currentYear - userAge;
+let userMoney = Number (MONEY_FIELD.value);
+
+//Functions
+function welcome(){
+    OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
+}
+function displayProduct (_name, _price){
+    OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>"
+}
+function start (){
+// Submit button
+    spaceForJavaScriptOutput.innerHTML
+    userName = NAME_FIELD.value
+    OUTPUT.innerHTML = "<p>Your name is " + userName + "</p>"
+    userAge = Number (AGE_FIELD.value);
+    OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>"
+    olderUserAge = userAge + 10;
+    userMoney = Number (MONEY_FIELD.value);
+    halfUserMoney = userMoney / 2;
+    addUserMoney = halfUserMoney + 3;
+    userBirthYear = currentYear - userAge;
+
+// JS and HTML link
+    OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
+    OUTPUT.innerHTML += "<h3>Added by JavaScript</h3>";
+    welcome()
+    OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
+    OUTPUT.innerHTML += "<p>As of " + currentYear + " you are " + userAge + " years old.</p>";
+    OUTPUT.innerHTML += "<p>You were born in " + userBirthYear + "</p>";
+    OUTPUT.innerHTML += "<p>In 10 years you will be " + olderUserAge + " years old.</p>";
+    OUTPUT.innerHTML += "<p>You have " + userMoney + " dollars.</p>"
+    OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + halfUserMoney + " dollars.</p>"
+    OUTPUT.innerHTML += "<p>Then you get $3, now you have " + addUserMoney + " dollars.</p>"
+
+    /****************************
+    Main code
+    ****************************/
+    
+    displayProduct("Chocolate Bar", 4)
+    displayProduct("Chips", 3)
+    displayProduct("Drink", 2.50)
+    console.log("Hi " + userName)
+    console.log("As of " + currentYear + " you are " + userAge + " years old.")
+    console.log("You were born in " + userBirthYear)
+    console.log("In 10 years you will be " + olderUserAge + " years old")
+    console.log("You have " + userMoney + " dollars.")
+    console.log("You spent half of your money, now you have " + halfUserMoney + " dollars")
+    console.log("Then you get $3, now you have " + addUserMoney + " dollars")
+}
