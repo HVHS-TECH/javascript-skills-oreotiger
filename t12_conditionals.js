@@ -37,7 +37,7 @@ function start (){
     addUserMoney = halfUserMoney + 3;
     userBirthYear = currentYear - userAge;
 
-// JS and HTML link
+// JS and HTML Output
     OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
     OUTPUT.innerHTML += "<h3>Added by JavaScript</h3>";
     welcome()
@@ -48,11 +48,11 @@ function start (){
     OUTPUT.innerHTML += "<p>You have " + userMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + halfUserMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + addUserMoney + " dollars.</p>"
+    if (addUserMoney => 4) {
+        OUTPUT.innerHTML += 
+    }
 
-    /****************************
-    Main code
-    ****************************/
-    
+  //Console Output
     displayProduct("Chocolate Bar", 4)
     displayProduct("Chips", 3)
     displayProduct("Drink", 2.50)
