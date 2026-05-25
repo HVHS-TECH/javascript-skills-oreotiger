@@ -41,6 +41,9 @@ function start (){
     OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
     OUTPUT.innerHTML += "<h3>Added by JavaScript</h3>";
     welcome()
+    displayProduct("Chocolate Bar", 4)
+    displayProduct("Chips", 3)
+    displayProduct("Drink", 2.50)
     OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
     OUTPUT.innerHTML += "<p>As of " + currentYear + " you are " + userAge + " years old.</p>";
     OUTPUT.innerHTML += "<p>You were born in " + userBirthYear + "</p>";
@@ -49,16 +52,13 @@ function start (){
     OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + halfUserMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + addUserMoney + " dollars.</p>"
     if (addUserMoney >= 4) {
-        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar</p> "
+        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar.</p> "
     } else {
-        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar</p> "
+        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar.</p> "
     }
 
 
   //Console Output
-    displayProduct("Chocolate Bar", 4)
-    displayProduct("Chips", 3)
-    displayProduct("Drink", 2.50)
     console.log("Hi " + userName)
     console.log("As of " + currentYear + " you are " + userAge + " years old.")
     console.log("You were born in " + userBirthYear)
