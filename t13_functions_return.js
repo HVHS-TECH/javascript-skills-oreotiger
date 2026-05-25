@@ -31,6 +31,8 @@ function calculateChange (_money, _price) {
     return change
 }
 
+let userChange = calculate 
+
 function start (){
 // Submit button
     spaceForJavaScriptOutput.innerHTML
