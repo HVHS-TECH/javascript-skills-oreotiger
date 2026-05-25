@@ -60,16 +60,12 @@ function start (){
     OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + halfUserMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + addUserMoney + " dollars.</p>"
     if (addUserMoney >= 4) {
-        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar.</p> "
+        calculateChange(userMoney, 4);
+        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar. <br> You will get $" + change + " change. </p></p> "
     } else {
-        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar.</p> "
+        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar. You will get no change. </p> "
     }
 
-    calculateChange(userMoney, 4)
-    if (addUserMoney >= 4) {
-        OUTPUT.innerHTML += "<p>You will get $" + change + " change. </p>"
-    }
-   
 
   //Console Output
     console.log("Hi " + userName)
