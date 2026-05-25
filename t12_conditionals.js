@@ -49,8 +49,11 @@ function start (){
     OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + halfUserMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + addUserMoney + " dollars.</p>"
     if (addUserMoney => 4) {
-        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> "
+        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar</p> "
+    } else {
+        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar</p> "
     }
+
 
   //Console Output
     displayProduct("Chocolate Bar", 4)
