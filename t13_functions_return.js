@@ -28,6 +28,7 @@ function displayProduct (_name, _price){
 
 function calculateChange (_money, _price) {
     let change = addUserMoney - _price
+    return change
 }
 
 function start (){
