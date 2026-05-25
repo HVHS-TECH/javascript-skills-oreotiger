@@ -31,8 +31,6 @@ function calculateChange (_money, _price) {
     return change
 }
 
-let userChange = calculate 
-
 function start (){
 // Submit button
     spaceForJavaScriptOutput.innerHTML
@@ -65,7 +63,8 @@ function start (){
     } else {
         OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar.</p> "
     }
-
+    calculateChange(userMoney, 4)
+    
 
   //Console Output
     console.log("Hi " + userName)
