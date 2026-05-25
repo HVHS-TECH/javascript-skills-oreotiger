@@ -27,7 +27,7 @@ function displayProduct (_name, _price){
 }
 
 function calculateChange (_money, _price) {
-    
+    let change = addUserMoney - _price
 }
 
 function start (){
