@@ -16,6 +16,7 @@ let userName = "Beatrix";
 let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
 let userMoney = Number (MONEY_FIELD.value);
+let change = addUserMoney - 4;
 
 //Functions
 function welcome(){
@@ -27,8 +28,8 @@ function displayProduct (_name, _price){
 }
 
 function calculateChange (_money, _price) {
-    let change = addUserMoney - _price
-    return change
+    change = addUserMoney - 4;
+    return change;
 }
 
 function start (){
@@ -63,6 +64,7 @@ function start (){
     } else {
         OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar.</p> "
     }
+
     calculateChange(userMoney, 4)
     OUTPUT.innerHTML += "<p>You will get $" + change + " change. </p>"
 
