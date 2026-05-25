@@ -50,7 +50,7 @@ function start (){
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + addUserMoney + " dollars.</p>"
     if (addUserMoney => 4) {
         OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar</p> "
-    } else {
+    } else if (addUserMoney <= 4){
         OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar</p> "
     }
 
