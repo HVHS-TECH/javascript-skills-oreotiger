@@ -16,7 +16,6 @@ let userName = "Beatrix";
 let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
 let userMoney = Number (MONEY_FIELD.value);
-let change = addUserMoney - 4;
 
 //Functions
 function welcome(){
@@ -44,6 +43,7 @@ function start (){
     halfUserMoney = userMoney / 2;
     addUserMoney = halfUserMoney + 3;
     userBirthYear = currentYear - userAge;
+    change = addUserMoney - 4;
 
 // JS and HTML Output
     OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
