@@ -66,8 +66,10 @@ function start (){
     }
 
     calculateChange(userMoney, 4)
-    OUTPUT.innerHTML += "<p>You will get $" + change + " change. </p>"
-
+    if (addUserMoney >= 4) {
+        OUTPUT.innerHTML += "<p>You will get $" + change + " change. </p>"
+    }
+   
 
   //Console Output
     console.log("Hi " + userName)
