@@ -63,9 +63,8 @@ function start (){
         calculateChange(userMoney, 4);
         OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar. <br> You will get $" + change + " change. </p></p> "
     } else {
-        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar. You will get no change. </p> "
+        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar. <br> You will get no change. </p> "
     }
-
 
   //Console Output
     console.log("Hi " + userName)
