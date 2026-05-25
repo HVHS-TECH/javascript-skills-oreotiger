@@ -64,7 +64,8 @@ function start (){
         OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar.</p> "
     }
     calculateChange(userMoney, 4)
-    
+    OUTPUT.innerHTML +=
+
 
   //Console Output
     console.log("Hi " + userName)
