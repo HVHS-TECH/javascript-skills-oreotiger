@@ -17,6 +17,7 @@ let userName = "Beatrix";
 let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
 let userMoney = Number (MONEY_FIELD.value);
+let choose = Number (CHOOSE_FIELD.value);
 
 //Functions
 function welcome(){
@@ -46,7 +47,7 @@ function start (){
     userBirthYear = currentYear - userAge;
     change = addUserMoney - 4;
     classArray = ["You hate chocolate", "Chocolate is whatever", "Chocolate is pretty good", "Chocolate is awesome!" ]
-    choice = CHOOSE_FIELD.value;
+    choice = Number (CHOOSE_FIELD.value);
 
 
 // JS and HTML Output
