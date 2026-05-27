@@ -9,6 +9,7 @@ const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
 const MONEY_FIELD = document.getElementById("moneyField");
+const CHOOSE_FIELD = document.getElementById("chooseField");
 
 // Variables
 let userAge = Number (AGE_FIELD.value);
