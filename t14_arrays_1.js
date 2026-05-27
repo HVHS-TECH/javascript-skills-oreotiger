@@ -52,8 +52,6 @@ function start (){
 
 
 // JS and HTML Output
-    OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
-    OUTPUT.innerHTML += "<h3>Added by JavaScript</h3>";
     welcome()
     displayProduct("Chocolate Bar", 4)
     displayProduct("Chips", 3)
