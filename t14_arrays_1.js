@@ -34,6 +34,12 @@ function calculateChange (_money, _price) {
     return change;
 }
 
+function chocolate () {
+    choice = Number (CHOOSE_FIELD.value);
+    classArray = [" ' I hate chocolate'", " 'Chocolate is whatever'", " 'Chocolate is pretty good'", " 'Chocolate is awesome!'" ]
+    OUTPUT.innerHTML += "<p>You chose" + classArray[choice] + ". </p>"
+}
+
 function start (){
 // Submit button
     spaceForJavaScriptOutput.innerHTML
@@ -47,9 +53,6 @@ function start (){
     addUserMoney = halfUserMoney + 3;
     userBirthYear = currentYear - userAge;
     change = addUserMoney - 4;
-    choice = Number (CHOOSE_FIELD.value);
-    classArray = [" 'You hate chocolate'", " 'Chocolate is whatever'", "Chocolate is pretty good", "Chocolate is awesome!" ]
-
 
 // JS and HTML Output
     welcome()
@@ -63,8 +66,6 @@ function start (){
     OUTPUT.innerHTML += "<p>You have " + userMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + halfUserMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + addUserMoney + " dollars.</p>"
-    OUTPUT.innerHTML += "<p>On a scale of 0-3 how much do you like chocolate?</p>"
-    OUTPUT.innerHTML += "<p>You chose" + classArray[choice] + ". </p>"
     if (addUserMoney >= 4) {
         calculateChange(userMoney, 4);
         OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar. <br> You will get $" + change + " change. </p></p> "
