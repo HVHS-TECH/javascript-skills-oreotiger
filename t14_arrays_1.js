@@ -48,6 +48,7 @@ function start (){
     userBirthYear = currentYear - userAge;
     change = addUserMoney - 4;
     choice = Number (CHOOSE_FIELD.value);
+    classArray = [" 'You hate chocolate'", " 'Chocolate is whatever'", "Chocolate is pretty good", "Chocolate is awesome!" ]
 
 
 // JS and HTML Output
