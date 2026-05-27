@@ -63,7 +63,7 @@ function start (){
     OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + halfUserMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + addUserMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>On a scale of 0-3 how much do you like chocolate?</p>"
-    
+    OUTPUT.innerHTML += "<p>You chose" + classArray[choice] + ". </p>"
     if (addUserMoney >= 4) {
         calculateChange(userMoney, 4);
         OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar. <br> You will get $" + change + " change. </p></p> "
