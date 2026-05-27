@@ -46,7 +46,7 @@ function start (){
     change = addUserMoney - 4;
     classArray = ["You hate chocolate", "Chocolate is whatever", "Chocolate is pretty good", "Chocolate is awesome!" ]
     choice = CHOOSE_FIELD.value;
-    
+
 
 // JS and HTML Output
     OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
@@ -62,6 +62,8 @@ function start (){
     OUTPUT.innerHTML += "<p>You have " + userMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>You spent half of your money, now you have " + halfUserMoney + " dollars.</p>"
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + addUserMoney + " dollars.</p>"
+    OUTPUT.innerHTML += "<p>On a scale of 0-3 how much do you like chocolate?</p>"
+    
     if (addUserMoney >= 4) {
         calculateChange(userMoney, 4);
         OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar. <br> You will get $" + change + " change. </p></p> "
