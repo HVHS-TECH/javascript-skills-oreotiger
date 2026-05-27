@@ -44,7 +44,9 @@ function start (){
     addUserMoney = halfUserMoney + 3;
     userBirthYear = currentYear - userAge;
     change = addUserMoney - 4;
-    classArray = ["You hate chocolate", "Chocolate is whatever", "Chocolate is pretty good", "Chocolate " ]
+    classArray = ["You hate chocolate", "Chocolate is whatever", "Chocolate is pretty good", "Chocolate is awesome!" ]
+    choice = CHOOSE_FIELD.value;
+    
 
 // JS and HTML Output
     OUTPUT.innerHTML += "<h2>Added to JavaScript</h2>";
