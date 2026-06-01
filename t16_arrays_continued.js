@@ -18,6 +18,7 @@ let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
 let userMoney = Number (MONEY_FIELD.value);
 let choose = Number (CHOOSE_FIELD.value);
+let item = String (ITEM_FIELD.value);
 let classArray = ["I hate chocolate", "Chocolate is whatever", "Chocolate is pretty good", "Chocolate is awesome!" ]
 let classArray = ["Chocolate Bar", "Chips", "Drink" ]
 
@@ -36,13 +37,13 @@ function calculateChange (_money, _price) {
 }
 
 function chocolate () {
-    choice = Number (CHOOSE_FIELD.value);
+    choose = Number (CHOOSE_FIELD.value);
     classArray = [" ' I hate chocolate'", " 'Chocolate is whatever'", " 'Chocolate is pretty good'", " 'Chocolate is awesome!'" ]
-    OUTPUT.innerHTML += "<p>You chose" + classArray[choice] + ". </p>"
+    OUTPUT.innerHTML += "<p>You chose" + classArray[choose] + ". </p>"
 }
 
 function cart () {
-    
+
 }
 
 function start (){
