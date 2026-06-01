@@ -11,8 +11,8 @@ const BOTTLE_FIELD = document.getElementById("bottleField");
 
 // Functions
 function sing () {
-    for (let BOTTLE_FIELD=15; BOTTLE_FIELD>=0; BOTTLE_FIELD--) {
-        OUTPUT.innerHTML += "<p>" + BOTTLE_FIELD + " bottles of milk on the wall, <br>" + BOTTLE_FIELD + " bottles of milk; <br> If one of those bottles should happen to fall... <br>" + (BOTTLE_FIELD-1) +  " bottles of milk on the wall!</p>"
-        console.log("Bottles of milk: " + BOTTLE_FIELD);
+    for (let i=BOTTLE_FIELD; i>=0; i--) {
+        OUTPUT.innerHTML += "<p>" + i + " bottles of milk on the wall, <br>" + i + " bottles of milk; <br> If one of those bottles should happen to fall... <br>" + (i-1) +  " bottles of milk on the wall!</p>"
+        console.log("Bottles of milk: " + i);
     }
 }
