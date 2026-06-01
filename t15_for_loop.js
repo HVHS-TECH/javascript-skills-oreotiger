@@ -13,6 +13,7 @@ const BOTTLE_FIELD = document.getElementById("bottleField");
 function sing () {
     for (let i=15; i>=0; i--) {
         console.log("Bottles of milk: " + i);
-        OUTPUT.innerHTML += "<p>" + i + " bottles of milk on the wall, <br>" + i + " bottles of milk; <br> If one of those bottles should happen to fall..." + i 
+        OUTPUT.innerHTML += "<p>" + i + " bottles of milk on the wall, <br>" + i + " bottles of milk; <br> If one of those bottles should happen to fall...</p>"
+        OUTPUT.innerHTML += "<p>" + i + 
     }
 }
