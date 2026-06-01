@@ -4,6 +4,7 @@ console.log("Running t15_for_loop.js")
 console.log("Hello")
 
 // Constants
+const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
 const BOTTLE_FIELD = document.getElementById("bottleField");
 
 // Variables
