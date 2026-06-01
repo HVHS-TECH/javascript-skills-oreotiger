@@ -19,7 +19,7 @@ let userBirthYear = currentYear - userAge;
 let userMoney = Number (MONEY_FIELD.value);
 let choose = Number (CHOOSE_FIELD.value);
 let classArray = ["I hate chocolate", "Chocolate is whatever", "Chocolate is pretty good", "Chocolate is awesome!" ]
-
+let classArray = ["Chocolate Bar", "Chips", "Drink" ]
 
 //Functions
 function welcome(){
