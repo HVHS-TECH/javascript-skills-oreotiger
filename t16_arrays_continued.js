@@ -19,9 +19,9 @@ let currentYear = 2026;
 let userBirthYear = currentYear - userAge;
 let userMoney = Number (MONEY_FIELD.value);
 let choose = Number (CHOOSE_FIELD.value);
-let item = String (ITEM_FIELD.value);
+let item = Number (ITEM_FIELD.value);
 let classArray = ["I hate chocolate", "Chocolate is whatever", "Chocolate is pretty good", "Chocolate is awesome!" ]
-let classArray2 = ["Chocolate Bar", "Chips", "Drink" ]
+let classArray2 = ["0th term", "Chocolate Bar", "Chips", "Drink" ]
 
 //Functions
 function welcome(){
@@ -44,8 +44,8 @@ function chocolate () {
 }
 
 function cart () {
-    item = String (ITEM_FIELD.value);
-    classArray2 = ["Chocolate Bar", "Chips", "Drink" ];
+    item = Number (ITEM_FIELD.value);
+    classArray2 = ["0th term", "Chocolate Bar", "Chips", "Drink" ];
     OUTPUT.innerHTML += "<p>You have added " + classArray[item] + " to your shopping cart</p>";
 }
 
@@ -65,9 +65,9 @@ function start (){
 
 // JS and HTML Output
     welcome()
-    displayProduct("Chocolate Bar", 4)
-    displayProduct("Chips", 3)
-    displayProduct("Drink", 2.50)
+    displayProduct("1. Chocolate Bar", 4)
+    displayProduct("2. Chips", 3)
+    displayProduct("3. Drink", 2.50)
     OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
     OUTPUT.innerHTML += "<p>As of " + currentYear + " you are " + userAge + " years old.</p>";
     OUTPUT.innerHTML += "<p>You were born in " + userBirthYear + "</p>";
