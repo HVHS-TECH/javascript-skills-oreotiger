@@ -46,7 +46,7 @@ function chocolate () {
 function cart () {
     item = Number (ITEM_FIELD.value);
     classArray2 = ["0th term", "Chocolate Bar", "Chips", "Drink" ];
-    OUTPUT.innerHTML += "<p>You have added " + classArray[item] + " to your shopping cart</p>";
+    OUTPUT.innerHTML += "<p>You have added " + classArray2[item] + " to your shopping cart</p>";
 }
 
 function start (){
