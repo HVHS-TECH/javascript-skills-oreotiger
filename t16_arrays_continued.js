@@ -20,7 +20,7 @@ let userMoney = Number (MONEY_FIELD.value);
 let choose = Number (CHOOSE_FIELD.value);
 let item = String (ITEM_FIELD.value);
 let classArray = ["I hate chocolate", "Chocolate is whatever", "Chocolate is pretty good", "Chocolate is awesome!" ]
-let classArray = ["Chocolate Bar", "Chips", "Drink" ]
+let classArray2 = ["Chocolate Bar", "Chips", "Drink" ]
 
 //Functions
 function welcome(){
@@ -43,7 +43,9 @@ function chocolate () {
 }
 
 function cart () {
-
+    item = String (ITEM_FIELD.value);
+    classArray2 = ["Chocolate Bar", "Chips", "Drink" ];
+    OUTPUT.innerHTML += "<p>You have added " + classArray[item] + " to your shopping cart</p>";
 }
 
 function start (){
