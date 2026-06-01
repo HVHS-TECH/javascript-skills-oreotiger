@@ -10,6 +10,7 @@ const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
 const MONEY_FIELD = document.getElementById("moneyField");
 const CHOOSE_FIELD = document.getElementById("chooseField");
+const ITEM_FIELD = document.getElementById("chooseField");
 
 // Variables
 let userAge = Number (AGE_FIELD.value);
@@ -37,9 +38,9 @@ function calculateChange (_money, _price) {
 }
 
 function chocolate () {
-    choose = Number (CHOOSE_FIELD.value);
+    choice = Number (CHOOSE_FIELD.value);
     classArray = [" ' I hate chocolate'", " 'Chocolate is whatever'", " 'Chocolate is pretty good'", " 'Chocolate is awesome!'" ]
-    OUTPUT.innerHTML += "<p>You chose" + classArray[choose] + ". </p>"
+    OUTPUT.innerHTML += "<p>You chose" + classArray[choice] + ". </p>"
 }
 
 function cart () {
