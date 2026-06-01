@@ -26,6 +26,9 @@ let classArray2 = ["0th term", "Chocolate Bar", "Chips", "Drink" ]
 //Functions
 function welcome(){
     OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
+    displayProduct("1. Chocolate Bar", 4)
+    displayProduct("2. Chips", 3)
+    displayProduct("3. Drink", 2.50)
 }
 
 function displayProduct (_name, _price){
@@ -64,10 +67,6 @@ function start (){
     change = addUserMoney - 4;
 
 // JS and HTML Output
-    welcome()
-    displayProduct("1. Chocolate Bar", 4)
-    displayProduct("2. Chips", 3)
-    displayProduct("3. Drink", 2.50)
     OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
     OUTPUT.innerHTML += "<p>As of " + currentYear + " you are " + userAge + " years old.</p>";
     OUTPUT.innerHTML += "<p>You were born in " + userBirthYear + "</p>";
