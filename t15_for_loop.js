@@ -8,10 +8,12 @@ const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
 const BOTTLE_FIELD = document.getElementById("bottleField");
 
 // Variables
+let userBottle = Number (BOTTLE_FIELD.value);
 
 // Functions
 function sing () {
-    for (let i=BOTTLE_FIELD; i>=0; i--) {
+    userBottle = Number (BOTTLE_FIELD.value);
+    for (let i=userBottle; i>=1; i--) {
         OUTPUT.innerHTML += "<p>" + i + " bottles of milk on the wall, <br>" + i + " bottles of milk; <br> If one of those bottles should happen to fall... <br>" + (i-1) +  " bottles of milk on the wall!</p>"
         console.log("Bottles of milk: " + i);
     }
